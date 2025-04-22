@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>LocalStorage Transfer Tool</title>
+  <style>
+    body {
+      width: 250px;
+      padding: 15px;
+      font-family: Arial, sans-serif;
+      background-color: #f8f9fa;
+    }
+
+    h2 {
+      text-align: center;
+      color: #202124;
+      margin-top: 0;
+      margin-bottom: 20px;
+    }
+
+    .button-container {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    button {
+      width: 100%;
+      padding: 12px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-weight: 500;
+      font-size: 14px;
+      transition: all 0.2s ease;
+    }
+
+    #captureBtn {
+      background-color: #1a73e8;
+      color: white;
+    }
+
+    #captureBtn:hover {
+      background-color: #1967d2;
+    }
+
+    #injectBtn {
+      background-color: #34a853;
+      color: white;
+    }
+
+    #injectBtn:hover {
+      background-color: #2e8b47;
+    }
+
+    #manualBtn {
+      background-color: #f1f3f4;
+      color: #202124;
+      border: 1px solid #dadce0;
+    }
+
+    #manualBtn:hover {
+      background-color: #e8eaed;
+    }
+
+    #status {
+      margin-top: 15px;
+      padding: 10px;
+      border-radius: 4px;
+      font-size: 13px;
+      text-align: center;
+      display: none;
+    }
+
+    .success {
+      background-color: #e6f4ea;
+      color: #137333;
+      border: 1px solid #137333;
+      display: block !important;
+    }
+
+    .error {
+      background-color: #fce8e6;
+      color: #c5221f;
+      border: 1px solid #c5221f;
+      display: block !important;
+    }
+
+    .info {
+      font-size: 12px;
+      color: #5f6368;
+      text-align: center;
+      margin-top: 15px;
+      font-style: italic;
+    }
+  </style>
+</head>
+
+<body>
+  <h2>LocalStorage Transfer Tool</h2>
+  <div class="button-container">
+    <button id="captureBtn">Verileri Al</button>
+    <button id="injectBtn">Verileri Yapıştır</button>
+    <button id="manualBtn">Veri Kodunu Kopyala</button>
+  </div>
+  <div id="status"></div>
+  <div class="info">Herhangi bir sayfadan localStorage verilerini alıp başka bir sayfaya aktarabilirsiniz.</div>
+  <div class="info" style="margin-top: 10px;"><a href="privacy_policy.html" target="_blank">Gizlilik Politikası</a>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+
+</html>
