@@ -19,7 +19,7 @@ Bu Chrome uzantısı, herhangi bir web sayfasından localStorage verilerini alı
 
 ## Gizlilik
 
-Bu uzantı, verilerinizi yalnızca cihazınızda saklar ve hiçbir veriyi sunucularımıza veya üçüncü taraflara göndermez. Daha fazla bilgi için [Gizlilik Politikası](privacy_policy.html) sayfasını ziyaret edin.
+Bu uzantı, verilerinizi yalnızca cihazınızda saklar ve hiçbir veriyi sunucularımıza veya üçüncü taraflara göndermez. Daha fazla bilgi için [Gizlilik Politikası](https://osmnnl.github.io/localStorage-transfer-extension/privacy_policy.html) sayfasını ziyaret edin.
 
 ## İletişim
 
